@@ -4,7 +4,7 @@ import Navbar from "./js/Navbar";
 import Home from "./js/Home";
 import Skills from "./js/Skills";
 import Projects from "./js/Projects";
-import Resume from "./js/Resume";
+import Resume from "./js/Profile";
 import Contact from "./js/Contact";
 import { AnimatePresence } from "framer-motion";
 import { useLocation } from "react-router-dom";
@@ -21,7 +21,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/profile" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
         </Routes>
